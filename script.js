@@ -7,8 +7,9 @@
     document.querySelectorAll('.page').forEach(function (p) {
       p.classList.toggle('is-active', p.id === 'page-' + name);
     });
+    var navTarget = /^work\d/.test(name) ? 'works' : name;
     navButtons.forEach(function (b) {
-      b.classList.toggle('is-active', b.dataset.target === name);
+      b.classList.toggle('is-active', b.dataset.target === navTarget);
     });
     closeMenu();
     window.scrollTo({ top: 0, behavior: 'auto' });

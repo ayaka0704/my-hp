@@ -102,6 +102,17 @@ button { font-family: inherit; cursor: pointer; }
   margin-top: 4px;
 }
 
+.topbar--detail { justify-content: flex-start; gap: 14px; }
+.topbar-title--sm { font-size: 19px; }
+.back-btn {
+  background: none; border: none; color: #fff;
+  font-size: 22px; line-height: 1; padding: 4px; flex-shrink: 0;
+}
+
+.detail-media { margin-bottom: 18px; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); }
+.detail-media img { width: 100%; aspect-ratio: 305/105; object-fit: cover; display: block; }
+.detail-title { font-size: 19px; font-weight: 700; margin: 0 0 22px; }
+
 .brand { display: flex; align-items: center; gap: 8px; }
 .brand-leaf { font-size: 20px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
