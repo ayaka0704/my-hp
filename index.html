@@ -7,7 +7,7 @@
 <meta name="description" content="AIと仕組みで、人の時間と可能性をひらく。AI・DXコンサルタント Mai のポートフォリオサイト。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500;1,600&family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -43,15 +43,16 @@
         </button>
       </header>
 
-      <div class="hero">
-        <img class="hero-img" src="https://picsum.photos/seed/mai-hero/900/1100" alt="海辺でくつろぐ女性">
-        <div class="hero-copy">
-          <h1>AIと仕組みで、<br>人の時間と<br>可能性をひらく。</h1>
-        </div>
+      <div class="hero-copy">
+        <h1>AIと仕組みで、<br>人の時間と<br>可能性をひらく。</h1>
       </div>
 
-      <div class="section-pad">
-        <button class="btn btn-primary" data-target="about">わたしについて <span class="arrow">&rarr;</span></button>
+      <div class="hero">
+        <img class="hero-img" src="https://picsum.photos/seed/mai-hero/900/1100" alt="海辺でくつろぐ女性">
+      </div>
+
+      <div class="section-pad hero-cta">
+        <button class="btn btn-primary" data-target="about">わたしについて <span class="chev">&rsaquo;</span></button>
       </div>
 
       <section class="block">
@@ -70,19 +71,19 @@
         <h2 class="block-title">Service<span class="block-sub">- 提供していること -</span></h2>
         <div class="service-grid">
           <div class="service-card">
-            <span class="service-icon" aria-hidden="true">&#128187;</span>
+            <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="11.5" rx="1.5"/><path d="M2 19.5h20"/></svg></span>
             <span class="service-label">業務効率化支援</span>
           </div>
           <div class="service-card">
-            <span class="service-icon" aria-hidden="true">&#129302;</span>
+            <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="7" width="12" height="10" rx="2"/><circle cx="9.5" cy="12" r="1" fill="currentColor" stroke="none"/><circle cx="14.5" cy="12" r="1" fill="currentColor" stroke="none"/><path d="M12 7V4M9 4h6"/></svg></span>
             <span class="service-label">AI活用サポート</span>
           </div>
           <div class="service-card">
-            <span class="service-icon" aria-hidden="true">&#128200;</span>
+            <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V10M10 19V5M16 19v-7M3 19h17"/></svg></span>
             <span class="service-label">DX推進サポート</span>
           </div>
           <div class="service-card">
-            <span class="service-icon" aria-hidden="true">&#9881;&#65039;</span>
+            <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.2M12 18.8V21M4.9 4.9l1.5 1.5M17.6 17.6l1.5 1.5M3 12h2.2M18.8 12H21M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5"/></svg></span>
             <span class="service-label">ツール・仕組み構築</span>
           </div>
         </div>
@@ -121,9 +122,11 @@
         <p class="lead-text">業務効率化のために構築・改善した事例をご紹介します。</p>
 
         <article class="work-card">
-          <img src="https://picsum.photos/seed/mai-work1/700/500" alt="予約管理の自動化システム">
-          <div class="work-card-body">
+          <div class="work-card-media">
+            <img src="https://picsum.photos/seed/mai-work1/700/500" alt="予約管理の自動化システム">
             <span class="tag">業務自動化</span>
+          </div>
+          <div class="work-card-body">
             <h3>予約管理の自動化システム</h3>
             <p>Googleスプレッドシートと GAS を連携し、予約受付からリマインド送信までを自動化。作業時間を約70%削減しました。</p>
             <button class="link-more" data-target="contact">詳しく見る <span class="arrow">&rarr;</span></button>
@@ -131,9 +134,11 @@
         </article>
 
         <article class="work-card">
-          <img src="https://picsum.photos/seed/mai-work2/700/500" alt="チャットボット導入支援">
-          <div class="work-card-body">
+          <div class="work-card-media">
+            <img src="https://picsum.photos/seed/mai-work2/700/500" alt="チャットボット導入支援">
             <span class="tag">顧客対応の効率化</span>
+          </div>
+          <div class="work-card-body">
             <h3>チャットボット導入支援</h3>
             <p>LINE公式アカウントにチャットボットを導入し、よくある質問への自動応答を実現。問い合わせ対応時間を大幅に削減。</p>
             <button class="link-more" data-target="contact">詳しく見る <span class="arrow">&rarr;</span></button>
@@ -141,9 +146,11 @@
         </article>
 
         <article class="work-card">
-          <img src="https://picsum.photos/seed/mai-work3/700/500" alt="売上管理ダッシュボード作成">
-          <div class="work-card-body">
+          <div class="work-card-media">
+            <img src="https://picsum.photos/seed/mai-work3/700/500" alt="売上管理ダッシュボード作成">
             <span class="tag">データの見える化</span>
+          </div>
+          <div class="work-card-body">
             <h3>売上管理ダッシュボード作成</h3>
             <p>スプレッドシートのデータをもとに、リアルタイムで確認できるダッシュボードを構築。経営判断のスピードが向上しました。</p>
             <button class="link-more" data-target="contact">詳しく見る <span class="arrow">&rarr;</span></button>
@@ -170,7 +177,7 @@
         <p class="lead-text">業務の効率化や仕組みづくりを、テクノロジーとやさしさを組み合わせてサポートします。</p>
 
         <article class="service-detail-card">
-          <span class="service-icon" aria-hidden="true">&#128187;</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="11.5" rx="1.5"/><path d="M2 19.5h20"/></svg></span>
           <div>
             <h3>業務効率化支援</h3>
             <p>日々の業務フローを見直し、無駄な作業を減らす仕組みをご提案・構築します。</p>
@@ -178,7 +185,7 @@
         </article>
 
         <article class="service-detail-card">
-          <span class="service-icon" aria-hidden="true">&#129302;</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="7" width="12" height="10" rx="2"/><circle cx="9.5" cy="12" r="1" fill="currentColor" stroke="none"/><circle cx="14.5" cy="12" r="1" fill="currentColor" stroke="none"/><path d="M12 7V4M9 4h6"/></svg></span>
           <div>
             <h3>AI活用サポート</h3>
             <p>生成AIツールを業務にどう取り入れるか、導入から運用まで伴走支援します。</p>
@@ -186,7 +193,7 @@
         </article>
 
         <article class="service-detail-card">
-          <span class="service-icon" aria-hidden="true">&#128200;</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V10M10 19V5M16 19v-7M3 19h17"/></svg></span>
           <div>
             <h3>DX推進サポート</h3>
             <p>紙・手作業中心の業務をデジタル化し、データが活きる状態へ整えます。</p>
@@ -194,7 +201,7 @@
         </article>
 
         <article class="service-detail-card">
-          <span class="service-icon" aria-hidden="true">&#9881;&#65039;</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.2M12 18.8V21M4.9 4.9l1.5 1.5M17.6 17.6l1.5 1.5M3 12h2.2M18.8 12H21M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5"/></svg></span>
           <div>
             <h3>ツール・仕組み構築</h3>
             <p>スプレッドシート・チャットボット・ダッシュボードなど、必要な仕組みをオーダーメイドで構築します。</p>

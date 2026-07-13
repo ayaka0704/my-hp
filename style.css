@@ -87,7 +87,9 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .topbar-title {
-  font-family: "EB Garamond", serif;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 600;
   font-size: 26px;
   letter-spacing: 0.02em;
 }
@@ -104,7 +106,7 @@ button { font-family: inherit; cursor: pointer; }
 .brand { display: flex; align-items: center; gap: 8px; }
 .brand-leaf { font-size: 20px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
-.brand-name { font-family: "EB Garamond", serif; font-size: 20px; }
+.brand-name { font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 22px; }
 .brand-sub { font-size: 10px; letter-spacing: 0.08em; color: var(--text-light); }
 
 .hamburger {
@@ -118,13 +120,11 @@ button { font-family: inherit; cursor: pointer; }
 .hamburger--light span { background: #fff; }
 
 /* ---------- Hero ---------- */
-.hero { position: relative; width: 100%; aspect-ratio: 3/4; overflow: hidden; }
+.hero-copy { padding: 22px 20px 18px; }
+.hero-copy h1 { font-size: 27px; line-height: 1.6; font-weight: 500; color: var(--text); }
+.hero { width: 100%; aspect-ratio: 3/4; overflow: hidden; }
 .hero-img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.hero-copy {
-  position: absolute; left: 20px; top: 24px; right: 20px;
-  color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.35);
-}
-.hero-copy h1 { font-size: 26px; line-height: 1.5; font-weight: 500; }
+.hero-cta { padding-top: 22px; padding-bottom: 22px; text-align: center; }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -150,7 +150,9 @@ button { font-family: inherit; cursor: pointer; }
 .block--tint { background: var(--bg-tint); }
 
 .block-title {
-  font-family: "EB Garamond", serif;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 600;
   font-size: 22px;
   text-align: center;
   margin-bottom: 20px;
@@ -193,7 +195,8 @@ button { font-family: inherit; cursor: pointer; }
   gap: 10px;
   box-shadow: var(--shadow);
 }
-.service-icon { font-size: 26px; }
+.service-icon { width: 30px; height: 30px; color: var(--green-dark); }
+.service-icon svg { width: 100%; height: 100%; display: block; }
 .service-label { font-size: 13px; text-align: center; }
 
 .service-detail-card {
@@ -206,6 +209,7 @@ button { font-family: inherit; cursor: pointer; }
   margin-bottom: 14px;
   box-shadow: var(--shadow);
 }
+.service-detail-card .service-icon { flex-shrink: 0; margin-top: 2px; }
 .service-detail-card h3 { font-size: 15px; margin-bottom: 6px; }
 .service-detail-card p { font-size: 13px; line-height: 1.9; color: var(--text-light); margin: 0; }
 
@@ -239,17 +243,21 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: var(--shadow);
   margin-bottom: 22px;
 }
-.work-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
-.work-card-body { padding: 16px 18px 20px; }
-.work-card-body h3 { font-size: 16px; margin: 8px 0; }
+.work-card-media { position: relative; }
+.work-card-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+.work-card-body { padding: 14px 18px 20px; }
+.work-card-body h3 { font-size: 16px; margin: 4px 0 8px; }
 .work-card-body p { font-size: 13px; line-height: 1.9; color: var(--text-light); margin: 0 0 12px; }
 
 .tag {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
   display: inline-block;
-  background: var(--green-pale);
-  color: var(--green-dark);
+  background: rgba(84, 71, 57, 0.72);
+  color: #fff;
   font-size: 11px;
-  padding: 4px 10px;
+  padding: 5px 12px;
   border-radius: var(--radius-full);
   letter-spacing: 0.05em;
 }
@@ -277,7 +285,7 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: var(--shadow);
 }
 .role-label { text-align: center; font-size: 12px; color: var(--text-light); margin-top: 18px; letter-spacing: 0.1em; }
-.name-label { text-align: center; font-family: "EB Garamond", serif; font-size: 24px; margin: 4px 0 18px; }
+.name-label { text-align: center; font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 26px; margin: 4px 0 18px; }
 
 .sub-heading {
   font-size: 15px;
@@ -315,7 +323,7 @@ button { font-family: inherit; cursor: pointer; }
   padding: 32px 20px 24px;
   color: var(--text-light);
 }
-.footer-brand { display: block; font-family: "EB Garamond", serif; font-size: 18px; color: var(--text); margin-top: 6px; }
+.footer-brand { display: block; font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 18px; color: var(--text); margin-top: 6px; }
 .footer-sub { display: block; font-size: 10px; letter-spacing: 0.1em; margin-top: 2px; }
 .footer-copy { font-size: 11px; margin-top: 14px; }
 
@@ -377,8 +385,8 @@ button { font-family: inherit; cursor: pointer; }
 .menu-links { display: flex; flex-direction: column; align-items: center; gap: 24px; }
 .menu-links button {
   background: none; border: none; color: #fff;
-  font-family: "EB Garamond", serif;
-  font-size: 20px; letter-spacing: 0.08em;
+  font-family: "Shippori Mincho", serif;
+  font-size: 18px; letter-spacing: 0.08em;
 }
 
 @media (min-width: 481px) {
