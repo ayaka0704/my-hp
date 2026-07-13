@@ -285,7 +285,8 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: var(--shadow);
 }
 .role-label { text-align: center; font-size: 12px; color: var(--text-light); margin-top: 18px; letter-spacing: 0.1em; }
-.name-label { text-align: center; font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 26px; margin: 4px 0 18px; }
+.name-label { text-align: center; font-family: "Shippori Mincho", serif; font-weight: 600; font-size: 24px; margin: 4px 0 18px; letter-spacing: 0.05em; }
+.name-label rt { font-family: "Shippori Mincho", serif; font-weight: 400; font-size: 11px; color: var(--text-light); letter-spacing: 0.05em; }
 
 .sub-heading {
   font-size: 15px;
