@@ -182,6 +182,16 @@ button { font-family: inherit; cursor: pointer; }
   margin: 0 0 20px;
 }
 .lead-text.center { text-align: center; }
+.lead-text.left { text-align: left; }
+
+.bio { margin-bottom: 8px; }
+.bio-greeting {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--green-dark);
+  text-align: center;
+  margin: 0 0 14px;
+}
 
 /* ---------- Service grid ---------- */
 .service-grid {
