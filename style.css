@@ -26,7 +26,7 @@ html, body {
 }
 
 body {
-  font-family: "Shippori Mincho", serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
@@ -87,16 +87,15 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .topbar-title {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.02em;
 }
 
 .topbar-title span {
   display: block;
-  font-family: "Shippori Mincho", serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-size: 12px;
   letter-spacing: 0.15em;
   opacity: 0.85;
@@ -106,7 +105,7 @@ button { font-family: inherit; cursor: pointer; }
 .brand { display: flex; align-items: center; gap: 8px; }
 .brand-leaf { font-size: 20px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
-.brand-name { font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 22px; }
+.brand-name { font-family: "Quicksand", sans-serif; font-weight: 700; font-size: 22px; }
 .brand-sub { font-size: 10px; letter-spacing: 0.08em; color: var(--text-light); }
 
 .hamburger {
@@ -150,9 +149,8 @@ button { font-family: inherit; cursor: pointer; }
 .block--tint { background: var(--bg-tint); }
 
 .block-title {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
   font-size: 22px;
   text-align: center;
   margin-bottom: 20px;
@@ -162,7 +160,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .block-sub, .sub-heading .block-sub {
   display: block;
-  font-family: "Shippori Mincho", serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-size: 11px;
   color: var(--text-light);
   letter-spacing: 0.15em;
@@ -285,8 +283,8 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: var(--shadow);
 }
 .role-label { text-align: center; font-size: 12px; color: var(--text-light); margin-top: 18px; letter-spacing: 0.1em; }
-.name-label { text-align: center; font-family: "Shippori Mincho", serif; font-weight: 600; font-size: 24px; margin: 4px 0 18px; letter-spacing: 0.05em; }
-.name-label rt { font-family: "Shippori Mincho", serif; font-weight: 400; font-size: 11px; color: var(--text-light); letter-spacing: 0.05em; }
+.name-label { text-align: center; font-family: "Zen Maru Gothic", sans-serif; font-weight: 600; font-size: 24px; margin: 4px 0 18px; letter-spacing: 0.05em; }
+.name-label rt { font-family: "Zen Maru Gothic", sans-serif; font-weight: 400; font-size: 11px; color: var(--text-light); letter-spacing: 0.05em; }
 
 .sub-heading {
   font-size: 15px;
@@ -324,7 +322,7 @@ button { font-family: inherit; cursor: pointer; }
   padding: 32px 20px 24px;
   color: var(--text-light);
 }
-.footer-brand { display: block; font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 18px; color: var(--text); margin-top: 6px; }
+.footer-brand { display: block; font-family: "Quicksand", sans-serif; font-weight: 700; font-size: 18px; color: var(--text); margin-top: 6px; }
 .footer-sub { display: block; font-size: 10px; letter-spacing: 0.1em; margin-top: 2px; }
 .footer-copy { font-size: 11px; margin-top: 14px; }
 
@@ -386,7 +384,7 @@ button { font-family: inherit; cursor: pointer; }
 .menu-links { display: flex; flex-direction: column; align-items: center; gap: 24px; }
 .menu-links button {
   background: none; border: none; color: #fff;
-  font-family: "Shippori Mincho", serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-size: 18px; letter-spacing: 0.08em;
 }
 
