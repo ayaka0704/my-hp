@@ -195,7 +195,7 @@ button { font-family: inherit; cursor: pointer; }
   gap: 10px;
   box-shadow: var(--shadow);
 }
-.service-icon { width: 30px; height: 30px; color: var(--green-dark); }
+.service-icon { width: 32px; height: 32px; color: var(--green); }
 .service-icon svg { width: 100%; height: 100%; display: block; }
 .service-label { font-size: 13px; text-align: center; }
 
