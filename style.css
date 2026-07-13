@@ -153,6 +153,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ---------- Blocks / typography ---------- */
 .block { padding: 36px 20px; }
+.block-cta { text-align: center; }
 .block--tint { background: var(--bg-tint); }
 
 .block-title {
