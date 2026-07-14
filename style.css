@@ -220,6 +220,59 @@ button { font-family: inherit; cursor: pointer; }
 .service-label { font-size: 13px; text-align: center; line-height: 1.6; }
 .service-label small { display: block; margin-top: 4px; font-size: 11px; font-weight: 400; color: var(--text-light); }
 
+/* ---------- Flow diagram (input -> output illustration) ---------- */
+.flow-diagram { margin: 24px 0 8px; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.flow-step { width: 100%; }
+.flow-label {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 10px;
+  background: var(--green-dark);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 16px;
+  border-radius: var(--radius-full);
+}
+.flow-card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  box-shadow: var(--shadow);
+}
+.flow-list { list-style: none; margin: 0; padding: 0; }
+.flow-list li {
+  position: relative;
+  padding-left: 14px;
+  font-size: 12.5px;
+  line-height: 1.9;
+  color: var(--text);
+}
+.flow-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 10px;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--green);
+}
+.flow-arrow { width: 26px; height: 26px; color: var(--green); margin: 6px 0; }
+.flow-arrow svg { width: 100%; height: 100%; display: block; }
+.flow-card--output { display: flex; align-items: center; justify-content: center; padding: 26px; }
+.mail-badge {
+  position: relative;
+  width: 56px; height: 56px;
+  color: var(--green-dark);
+}
+.mail-badge svg { width: 100%; height: 100%; display: block; }
+.sparkle {
+  position: absolute;
+  color: var(--green);
+  font-size: 14px;
+}
+.sparkle-1 { top: -6px; right: -10px; }
+.sparkle-2 { bottom: -2px; right: -18px; font-size: 10px; opacity: 0.8; }
+
 .service-detail-card {
   display: flex;
   gap: 14px;
