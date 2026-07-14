@@ -256,6 +256,12 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: 50%;
   background: var(--green);
 }
+.flow-paragraph {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--text-light);
+}
 .flow-arrow { width: 26px; height: 26px; color: var(--green); margin: 6px 0; }
 .flow-arrow svg { width: 100%; height: 100%; display: block; }
 .flow-card--output { display: flex; align-items: center; justify-content: center; padding: 26px; }
