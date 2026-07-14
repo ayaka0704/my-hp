@@ -355,7 +355,7 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius-md);
   display: block;
 }
-.work-mini--square img { aspect-ratio: 1/1; object-fit: contain; background: #fff; }
+.work-mini--contain img { object-fit: contain; background: var(--bg); }
 .work-mini-label { display: block; font-size: 12px; margin-top: 8px; line-height: 1.6; }
 
 .work-card {
@@ -367,7 +367,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .work-card-media { position: relative; }
 .work-card-media img { width: 100%; aspect-ratio: 305/105; object-fit: cover; display: block; }
-.work-card-media--square img { aspect-ratio: 1/1; object-fit: contain; background: #fff; }
+.work-card-media--contain img { object-fit: contain; background: var(--bg); }
 .work-card-body { padding: 14px 18px 20px; }
 .work-card-body h3 { font-size: 16px; margin: 4px 0 8px; }
 .work-card-body p { font-size: 13px; line-height: 1.9; color: var(--text-light); margin: 0 0 12px; }
